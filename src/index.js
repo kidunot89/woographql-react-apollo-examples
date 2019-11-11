@@ -1,12 +1,27 @@
+// index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { ApolloProvider } from '@apollo/react-hooks';
+import ApolloClient from 'apollo-client';
+import { HttpLink } from 'apollo-link-http';
+import { InMemoryCache, IntrospectionFragmentMatcher } from 'apollo-cache-inmemory';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// Local imports
+import App from './components/app';
+import introspectionQueryResultData from './schema-data.json';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const fragmentMatcher = new IntrospectionFragmentMatcher({
+  introspectionQueryResultData
+});
+
+const client = new ApolloClient({
+  link: new HttpLink({ uri: 'http://localhost/wordpress/graphql' }),
+  cache: new InMemoryCache({ fragmentMatcher }),
+  connectToDevTools: true,
+});
+
+ReactDOM.render(
+  <ApolloProvider client={client}>
+    <App />
+  </ApolloProvider>,
+document.getElementById('root'));

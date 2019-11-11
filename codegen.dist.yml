@@ -1,0 +1,7 @@
+# codegen.dist.yml copy to codegen.yml
+schema: http://example.com/graphql # WPGraphQL Endpoint
+overwrite: true
+generates:
+  ./src/schema-data.json:
+    plugins:
+      - fragment-matcher

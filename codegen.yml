@@ -1,0 +1,7 @@
+# codegen.yml
+schema: http://localhost/wordpress/graphql
+overwrite: true
+generates:
+  ./src/schema-data.json:
+    plugins:
+      - fragment-matcher
