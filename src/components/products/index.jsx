@@ -8,29 +8,38 @@ import ProductsItem from './item';
 
 export const GET_PRODUCTS = gql`
   query {
-    products {
-      nodes {
-        id
-        slug
-        name
-        type
-        shortDescription
-        image {
+    products(where: { supportedTypesOnly: true }) {
+      edges {
+        cursor
+        node {
           id
-          sourceUrl
-          altText
-        }
-        galleryImages {
-          nodes {
+          slug
+          name
+          type
+          shortDescription
+          image {
             id
             sourceUrl
             altText
           }
+          galleryImages {
+            nodes {
+              id
+              sourceUrl
+              altText
+            }
+          }
+          ... on SimpleProduct {
+            onSale
+            price
+            regularPrice
+          }
+          ... on VariableProduct {
+            onSale
+            price
+            regularPrice
+          }
         }
-        ... on SimpleProduct {
-          price
-        }
-        ... on VariableProduct { price }
       }
     }
   }
@@ -52,7 +61,7 @@ const ProductsList = (props) => {
     return <div>{error.message}</div>
   }
 
-  const products = data.products.nodes || [];
+  const products = data.products.edges || [];
 
   return (
     <Grid maxWidth="100%" columns={columns} itemWidth={itemWidth} {...rest}>
