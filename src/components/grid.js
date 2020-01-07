@@ -21,6 +21,7 @@ const Grid = styled.div.attrs((props) => ({
   ${({ alignContent }) => alignContent && `align-content: ${alignContent};`}
   ${({ autoFlow }) => autoFlow && `grid-auto-flow: ${autoFlow};`}
   ${({ maxWidth }) => maxWidth && `max-width: ${maxWidth};`}
+  overflow-y: scroll;
 `;
 
 export default Grid;
