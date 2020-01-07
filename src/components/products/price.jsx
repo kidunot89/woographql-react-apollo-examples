@@ -1,9 +1,8 @@
-// price.jsx
+// products/price.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ProductPrice = ({ data }) => {
-  const { onSale, regularPrice, price, type } = data;
+const ProductPrice = ({ onSale, regularPrice, price, type }) => {
   if (onSale) {
     return type === 'VARIABLE'
       ? (<p className="product-price">{price}</p>)
@@ -16,21 +15,17 @@ const ProductPrice = ({ data }) => {
 };
 
 ProductPrice.propTypes = {
-  data: PropTypes.shape({
-    price: PropTypes.string,
-    regularPrice: PropTypes.string,
-    salePrice: PropTypes.string,
-    onSale: PropTypes.bool,
-  }),
+  price: PropTypes.string,
+  regularPrice: PropTypes.string,
+  salePrice: PropTypes.string,
+  onSale: PropTypes.bool,
 };
 
 ProductPrice.defaultProps = {
-  data: {
-    price: 'Free',
-    regularPrice: 'Free',
-    salePrice: 'Free',
-    onSale: false,
-  },
+  price: 'Free',
+  regularPrice: 'Free',
+  salePrice: 'Free',
+  onSale: false,
 };
 
 export default ProductPrice;

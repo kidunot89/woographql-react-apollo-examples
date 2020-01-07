@@ -81,7 +81,7 @@ ProductsItem.propTypes = {
 };
 
 ProductsItem.defaultProps = {
-  data: [],
+  data: {},
   type: 'normal',
 };
 
