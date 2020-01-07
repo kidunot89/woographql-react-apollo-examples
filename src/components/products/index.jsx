@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useQuery, gql } from '@apollo/client';
 import PropTypes from 'prop-types';
 
@@ -6,8 +6,8 @@ import Grid from '../grid';
 import ProductsItem from './item';
 
 export const GET_PRODUCTS = gql`
-  query {
-    products(where: { supportedTypesOnly: true }) {
+  query ($first: Int, $after: String) {
+    products(first: $first, after: $after, where: { supportedTypesOnly: true }) {
       edges {
         cursor
         node {
@@ -43,17 +43,23 @@ export const GET_PRODUCTS = gql`
           }
         }
       }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
     }
   }
 `;
 
 const ProductsList = (props) => {
+  const containerRef = useRef(null);
   const {
     columns,
     itemWidth,
-    ...rest
+    width,
+    ...variables
   } = props;
-  const { data, loading, error } = useQuery(GET_PRODUCTS);
+  const { data, loading, error, fetchMore } = useQuery(GET_PRODUCTS, { variables });
   
   if (loading) {
     return <div>Fetching products...</div>
@@ -63,29 +69,59 @@ const ProductsList = (props) => {
     return <div>{error.message}</div>
   }
 
+  const hasMore = () => {
+    if (variables.last) {
+      return data.products.pageInfo.hasPreviousPage;
+    }
+    return data.products.pageInfo.hasNextPage;
+  };
+
+  const loadMore = () => fetchMore({
+      variables: variables.last
+        ? { before: data.products.pageInfo.endCursor }
+        : { after: data.products.pageInfo.endCursor }
+    });
+
   const products = data.products.edges || [];
 
   return (
-    <Grid maxWidth="100%" columns={columns} itemWidth={itemWidth} {...rest}>
-      {products.map(({ node }) => {
-        return (
-          <ProductsItem key={node.id} data={node} width={itemWidth} />
-        );
-      })}
-    </Grid>
+    <>
+      <Grid maxWidth="100%" columns={columns} itemWidth={itemWidth} {...rest}>
+        {products.map(({ node }) => {
+          return (
+            <ProductsItem key={node.id} data={node} width={itemWidth} />
+          );
+        })}
+      </Grid>
+      {hasMore() && (
+        <button
+          onClick={loadMore}
+          style={{
+            position: 'fixed',
+            marginBottom: '1rem',
+            bottom: 0,
+            left: '50%',
+            transform: 'translate(-50%',
+            width: '50%'
+          }}
+        >
+          Load More
+        </button>
+      )}
+    </>
   );
 };
 
 ProductsList.propTypes = {
-  products: PropTypes.arrayOf(PropTypes.shape({})),
   columns: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   itemWidth: PropTypes.string,
+  width: PropTypes.string
 };
 
 ProductsList.defaultProps = {
-  products: [],
   columns: 'auto-fit',
   itemWidth: '375px',
+  width: undefined,
 };
 
 export default ProductsList;

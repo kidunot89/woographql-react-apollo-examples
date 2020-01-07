@@ -7,6 +7,7 @@ const Grid = styled.div.attrs((props) => ({
   itemWidth: props.itemWidth || '375px',
   min: typeof props.columns === 'number' ? `${100 / props.columns}%` : props.itemWidth,
 }))`
+  position: relative;
   padding: 12px 16px;
   width: ${({ width }) => (width || '100%')};
   height: ${({ height }) => (height || 'auto')};
@@ -21,6 +22,7 @@ const Grid = styled.div.attrs((props) => ({
   ${({ alignContent }) => alignContent && `align-content: ${alignContent};`}
   ${({ autoFlow }) => autoFlow && `grid-auto-flow: ${autoFlow};`}
   ${({ maxWidth }) => maxWidth && `max-width: ${maxWidth};`}
+  overflow-y: scroll;
 `;
 
 export default Grid;
