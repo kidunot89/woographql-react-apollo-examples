@@ -15,7 +15,7 @@ const fragmentMatcher = new IntrospectionFragmentMatcher({
 });
 
 const client = new ApolloClient({
-  link: new HttpLink({ uri: 'http://localhost/wordpress/graphql' }),
+  link: new HttpLink({ uri: process.env.REACT_APP_ENDPOINT }),
   cache: new InMemoryCache({ fragmentMatcher }),
   connectToDevTools: true,
 });
