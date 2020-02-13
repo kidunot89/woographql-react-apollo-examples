@@ -1,3 +1,4 @@
+// products/index.jsx
 import React, { useRef } from 'react';
 import { useQuery } from '@apollo/react-hooks';
 import { gql } from 'apollo-boost';
@@ -108,7 +109,7 @@ const ProductsList = (props) => {
           <ProductsItem key={cursor} data={node} width={itemWidth} />
         );
       })}
-      <InfiniteLoader onVisited={loadMore} />
+      <InfiniteLoader onVisited={loadMore} containerElement={containerRef && containerRef.current} />
     </Grid>
   );
 };
