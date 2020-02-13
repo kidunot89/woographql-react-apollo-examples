@@ -1,3 +1,4 @@
+// products/index.jsx
 import React, { useRef } from 'react';
 import { useQuery, gql } from '@apollo/client';
 import PropTypes from 'prop-types';
