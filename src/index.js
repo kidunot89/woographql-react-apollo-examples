@@ -1,6 +1,6 @@
 // index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import {
   ApolloClient,
   HttpLink,
@@ -21,8 +21,10 @@ const client = new ApolloClient({
   connectToDevTools: true,
 });
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(
   <ApolloProvider client={client}>
     <App />
-  </ApolloProvider>,
-document.getElementById('root'));
+  </ApolloProvider>
+);
