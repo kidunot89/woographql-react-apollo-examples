@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Rail = styled.div`
+const Rail = styled(({ as: Element = 'div', ...props }) => (<Element {...props} />))`
   display: ${({ inline }) => (inline ? 'inline-flex' : 'flex')};
   flex-direction: ${({ direction }) => direction || 'row'};
   width: ${({ width }) => width || 'auto'};
@@ -22,10 +22,22 @@ const Rail = styled.div`
     }
     return '0';
   }};
+  text-decoration: none;
   flex-basis: ${({ basis }) => basis || 'auto'};
   ${({ scrollXOverflow }) => scrollXOverflow && 'overflow-x: scroll;'}
   ${({ margin }) => margin && `margin: ${margin};`}
   ${({ padding }) => padding && `padding: ${padding};`}
+
+  &:hover .product-name {
+      color: #00A991;
+      .product-price {
+        color: #181B20;
+        .regular-price {
+          text-decoration: line-through;
+          color: #52647A;
+        }
+      }
+    }
 
   &::-webkit-scrollbar-track {
     border-radius: 5px;
@@ -83,18 +95,6 @@ export const ProductRail = styled(Rail)`
       .regular-price {
         text-decoration: line-through;
         color: #5F738C;
-      }
-    }
-
-    &:hover {
-      color: #00A991;
-
-      .product-price {
-        color: #181B20;
-        .regular-price {
-          text-decoration: line-through;
-          color: #52647A;
-        }
       }
     }
   }
