@@ -8,6 +8,7 @@ import Price from './price';
 
 const ProductsItem = ({ data, ...rest }) => {
   const {
+    uri,
     name,
     onSale,
     regularPrice,
@@ -16,11 +17,16 @@ const ProductsItem = ({ data, ...rest }) => {
     galleryImages,
     type,
     shortDescription: description,
-    link,
   } = data;
 
   return (
-    <Rail justifyContent="center" direction="column" {...rest}>
+    <Rail
+      as="a"
+      href={uri}
+      justifyContent="center"
+      direction="column"
+      {...rest}
+    >
       <Image data={{ image, galleryImages }} width="175px" squared noUI />
       <ProductRail
         direction="column"
@@ -30,7 +36,7 @@ const ProductsItem = ({ data, ...rest }) => {
         inline
         shrink
       >
-        <a className="product-name" href={link}>
+        <div className="product-name">
           {onSale && (
             <>
               <span className="badge">On Sale</span>
@@ -58,7 +64,7 @@ const ProductsItem = ({ data, ...rest }) => {
             price={price}
             regularPrice={regularPrice}
           />
-        </a>
+        </div>
       </ProductRail>
     </Rail>
   );
@@ -68,6 +74,7 @@ ProductsItem.propTypes = {
   data: PropTypes.shape({
     name: PropTypes.string,
     slug: PropTypes.string,
+    uri: PropTypes.string,
     onSale: PropTypes.bool,
     regularPrice: PropTypes.string,
     price: PropTypes.string,

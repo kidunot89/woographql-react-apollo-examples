@@ -13,6 +13,9 @@ export const GET_PRODUCTS = gql`
         node {
           id
           slug
+          ... on ContentNode {
+            uri
+          }
           name
           type
           shortDescription
@@ -64,9 +67,9 @@ const ProductsList = (props) => {
 
   return (
     <Grid maxWidth="100%" columns={columns} itemWidth={itemWidth} {...rest}>
-      {products.map(({ cursor, node, }) => {
+      {products.map(({ node }) => {
         return (
-          <ProductsItem key={cursor} data={node} width={itemWidth} />
+          <ProductsItem key={node.id} data={node} width={itemWidth} />
         );
       })}
     </Grid>
