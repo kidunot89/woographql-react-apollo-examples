@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component renders default image successfully 1`] = `
+<body>
+  <div>
+    <img
+      alt="product image"
+      class="sc-bczRLJ hkeKaj"
+      src="http://place-puppy.com/640x640"
+    />
+  </div>
+</body>
+`;
+
+exports[`Image component renders provided successfully 1`] = `
+<body>
+  <div>
+    <img
+      alt="It's a dog"
+      class="sc-bczRLJ hkeKaj"
+      src="https://place-puppy.com/300x300"
+    />
+  </div>
+</body>
+`;
+
+exports[`Image component renders provided successfully 2`] = `
+"Snapshot Diff:
+- <ProductImage data={{\\"image\\": {\\"altText\\": \\"It's a dog\\", \\"sourceUrl\\": \\"https://place-puppy.com/300x300\\"}}} />
++ <ProductImage data={{\\"image\\": {\\"altText\\": \\"product image\\", \\"sourceUrl\\": \\"http://place-puppy.com/640x640\\"}}} />
+
+  <img
+-   alt=\\"It's a dog\\"
++   alt=\\"product image\\"
+    className=\\"sc-bczRLJ hkeKaj\\"
+-   src=\\"https://place-puppy.com/300x300\\"
++   src=\\"http://place-puppy.com/640x640\\"
+  />"
+`;

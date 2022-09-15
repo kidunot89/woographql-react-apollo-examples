@@ -2,6 +2,412 @@
 
 exports[`App component renders successfully 1`] = `
 <body>
-  <div />
+  <div>
+    <div
+      class="sc-bczRLJ fcCXHk"
+      min="375px"
+    >
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/tea-tumbler.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Tea Tumbler
+            <br />
+            <small>
+              Encourages hydration
+              <br />
+              
+Portable
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/9781849754323.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Vegetarian Tagines & Couscous
+            <br />
+            <small>
+              Inspires cooking
+              <br />
+              
+Supports wellness
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/GIVE-HATS-MEN-square.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Gift Of Hats (Men)
+            <br />
+            <small>
+              Covers the whole head
+              <br />
+              
+Protects against exposure
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/Product7_Transparent.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Organic Lavender Hand Sanitizer Spray
+            <br />
+            <small>
+              Helps reduce bacteria
+              <br />
+              
+Calming aroma
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/essential-oils-bundle.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Aromatherapy Essential Oil Bundle
+            <br />
+            <small>
+              Creates a relaxing environment
+              <br />
+              
+Enhances mood
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/Energizing-square.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Hair Regrowth Gift Set
+            <br />
+            <small>
+              Encourages hair growth
+              <br />
+              
+Minimizes additional hair loss
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/DEDE-PHOTOSHOP-square.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Thinning Hair Gift Set
+            <br />
+            <small>
+              Gently cleanses and conditions
+              <br />
+              
+Creates volume
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/authentic-copy-square.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Sensitive Bath+Body Gift Set
+            <br />
+            <small>
+              Protects ultra-sensitive skin
+              <br />
+              
+Provides nourishment
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/OL-square.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Nourishing Hair Gift Set
+            <br />
+            <small>
+              Repairs damaged and dry hair
+              <br />
+              
+Revives and adds shine
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-gsnTZi fjvLXW"
+        direction="column"
+        type="normal"
+        width="375px"
+      >
+        <img
+          alt=""
+          class="sc-hKMtZM hgCtbG"
+          src="https://shop.production.mendtogether.com/content/uploads/2021/04/6._Men_s_Hair_Regrowth_Gift_Set.png"
+          width="175px"
+        />
+        <div
+          alignitems="center"
+          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
+          direction="column"
+          height="175px"
+          width="175px"
+        >
+          <div
+            class="product-name"
+          >
+            Men's Hair Regrowth Gift Set
+            <br />
+            <small>
+              Encourages hair growth
+              <br />
+              
+Strengthens hair follicles
+            </small>
+            
+
+            <p
+              class="product-price"
+            >
+              Free
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 </body>
 `;
