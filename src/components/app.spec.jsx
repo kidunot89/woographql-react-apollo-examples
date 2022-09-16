@@ -1,12 +1,15 @@
 import { render, waitFor } from '@testing-library/react';
 
-import ApolloMockProvider from "../testing/ApolloMockProvider";
+import ApolloMockProvider from '../testing/ApolloMockProvider';
+import { MemoryRouter } from 'react-router-dom';
 import App from './app';
 
 describe('App component', () => {
   const { baseElement, queryByText } = render(
     <ApolloMockProvider>
-      <App />
+      <MemoryRouter initialEntries={['/']}>
+        <App />
+      </MemoryRouter>
     </ApolloMockProvider>
   );
 

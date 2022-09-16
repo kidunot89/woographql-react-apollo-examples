@@ -1,5 +1,5 @@
 // products/index.jsx
-import React, { useRef } from 'react';
+import React from 'react';
 import { useQuery, gql } from '@apollo/client';
 import PropTypes from 'prop-types';
 
@@ -53,7 +53,6 @@ export const GET_PRODUCTS = gql`
 `;
 
 const ProductsList = (props) => {
-  const containerRef = useRef(null);
   const {
     columns,
     itemWidth,
@@ -87,7 +86,7 @@ const ProductsList = (props) => {
 
   return (
     <>
-      <Grid maxWidth="100%" columns={columns} itemWidth={itemWidth} {...rest}>
+      <Grid maxWidth="100%" columns={columns} itemWidth={itemWidth}>
         {products.map(({ node }) => {
           return (
             <ProductsItem key={node.id} data={node} width={itemWidth} />

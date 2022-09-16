@@ -4,14 +4,14 @@ exports[`App component renders successfully 1`] = `
 <body>
   <div>
     <div
-      class="sc-bczRLJ fcCXHk"
-      min="375px"
+      class="sc-bczRLJ idbzVQ"
+      min="320px"
     >
       <a
-        class="sc-gsnTZi fjvLXW"
+        class="sc-gsnTZi cYpUvW"
         direction="column"
         type="normal"
-        width="375px"
+        width="320px"
       >
         <img
           alt=""
@@ -48,10 +48,10 @@ Portable
         </div>
       </a>
       <a
-        class="sc-gsnTZi fjvLXW"
+        class="sc-gsnTZi cYpUvW"
         direction="column"
         type="normal"
-        width="375px"
+        width="320px"
       >
         <img
           alt=""
@@ -88,10 +88,10 @@ Supports wellness
         </div>
       </a>
       <a
-        class="sc-gsnTZi fjvLXW"
+        class="sc-gsnTZi cYpUvW"
         direction="column"
         type="normal"
-        width="375px"
+        width="320px"
       >
         <img
           alt=""
@@ -128,10 +128,10 @@ Protects against exposure
         </div>
       </a>
       <a
-        class="sc-gsnTZi fjvLXW"
+        class="sc-gsnTZi cYpUvW"
         direction="column"
         type="normal"
-        width="375px"
+        width="320px"
       >
         <img
           alt=""
@@ -168,10 +168,10 @@ Calming aroma
         </div>
       </a>
       <a
-        class="sc-gsnTZi fjvLXW"
+        class="sc-gsnTZi cYpUvW"
         direction="column"
         type="normal"
-        width="375px"
+        width="320px"
       >
         <img
           alt=""
@@ -207,207 +207,12 @@ Enhances mood
           </div>
         </div>
       </a>
-      <a
-        class="sc-gsnTZi fjvLXW"
-        direction="column"
-        type="normal"
-        width="375px"
-      >
-        <img
-          alt=""
-          class="sc-hKMtZM hgCtbG"
-          src="https://example.com/content/uploads/2021/04/Energizing-square.png"
-          width="175px"
-        />
-        <div
-          alignitems="center"
-          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
-          direction="column"
-          height="175px"
-          width="175px"
-        >
-          <div
-            class="product-name"
-          >
-            Hair Regrowth Gift Set
-            <br />
-            <small>
-              Encourages hair growth
-              <br />
-              
-Minimizes additional hair loss
-            </small>
-            
-
-            <p
-              class="product-price"
-            >
-              Free
-            </p>
-          </div>
-        </div>
-      </a>
-      <a
-        class="sc-gsnTZi fjvLXW"
-        direction="column"
-        type="normal"
-        width="375px"
-      >
-        <img
-          alt=""
-          class="sc-hKMtZM hgCtbG"
-          src="https://example.com/content/uploads/2021/04/DEDE-PHOTOSHOP-square.png"
-          width="175px"
-        />
-        <div
-          alignitems="center"
-          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
-          direction="column"
-          height="175px"
-          width="175px"
-        >
-          <div
-            class="product-name"
-          >
-            Thinning Hair Gift Set
-            <br />
-            <small>
-              Gently cleanses and conditions
-              <br />
-              
-Creates volume
-            </small>
-            
-
-            <p
-              class="product-price"
-            >
-              Free
-            </p>
-          </div>
-        </div>
-      </a>
-      <a
-        class="sc-gsnTZi fjvLXW"
-        direction="column"
-        type="normal"
-        width="375px"
-      >
-        <img
-          alt=""
-          class="sc-hKMtZM hgCtbG"
-          src="https://example.com/content/uploads/2021/04/authentic-copy-square.png"
-          width="175px"
-        />
-        <div
-          alignitems="center"
-          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
-          direction="column"
-          height="175px"
-          width="175px"
-        >
-          <div
-            class="product-name"
-          >
-            Sensitive Bath+Body Gift Set
-            <br />
-            <small>
-              Protects ultra-sensitive skin
-              <br />
-              
-Provides nourishment
-            </small>
-            
-
-            <p
-              class="product-price"
-            >
-              Free
-            </p>
-          </div>
-        </div>
-      </a>
-      <a
-        class="sc-gsnTZi fjvLXW"
-        direction="column"
-        type="normal"
-        width="375px"
-      >
-        <img
-          alt=""
-          class="sc-hKMtZM hgCtbG"
-          src="https://example.com/content/uploads/2021/04/OL-square.png"
-          width="175px"
-        />
-        <div
-          alignitems="center"
-          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
-          direction="column"
-          height="175px"
-          width="175px"
-        >
-          <div
-            class="product-name"
-          >
-            Nourishing Hair Gift Set
-            <br />
-            <small>
-              Repairs damaged and dry hair
-              <br />
-              
-Revives and adds shine
-            </small>
-            
-
-            <p
-              class="product-price"
-            >
-              Free
-            </p>
-          </div>
-        </div>
-      </a>
-      <a
-        class="sc-gsnTZi fjvLXW"
-        direction="column"
-        type="normal"
-        width="375px"
-      >
-        <img
-          alt=""
-          class="sc-hKMtZM hgCtbG"
-          src="https://example.com/content/uploads/2021/04/6._Men_s_Hair_Regrowth_Gift_Set.png"
-          width="175px"
-        />
-        <div
-          alignitems="center"
-          class="sc-gsnTZi sc-dkzDqf nMtge iMFLaG"
-          direction="column"
-          height="175px"
-          width="175px"
-        >
-          <div
-            class="product-name"
-          >
-            Men's Hair Regrowth Gift Set
-            <br />
-            <small>
-              Encourages hair growth
-              <br />
-              
-Strengthens hair follicles
-            </small>
-            
-
-            <p
-              class="product-price"
-            >
-              Free
-            </p>
-          </div>
-        </div>
-      </a>
     </div>
+    <button
+      style="position: fixed; margin-bottom: 1rem; bottom: 0px; left: 50%; transform: translate(-50%; width: 50%;"
+    >
+      Load More
+    </button>
   </div>
 </body>
 `;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Rail = styled(({ as: Element = 'div', ...props }) => (<Element {...props} />))`
+const Rail = styled(({ as: Element = 'div', inline, ...props }) => (<Element {...props} />))`
   display: ${({ inline }) => (inline ? 'inline-flex' : 'flex')};
   flex-direction: ${({ direction }) => direction || 'row'};
   width: ${({ width }) => width || 'auto'};

@@ -1,11 +1,12 @@
-import React from 'react';
-import { MockedProvider  } from '@apollo/client/testing';
+import React from "react";
+import { MockedProvider } from "@apollo/client/testing";
 
 import { GET_PRODUCTS } from "../components/products";
 const mocks = [
   {
     request: {
       query: GET_PRODUCTS,
+      variables: { first: 5 },
     },
     result: {
       data: {
@@ -150,6 +151,25 @@ const mocks = [
                 regularPrice: "$59.00",
               },
             },
+            
+          ],
+          pageInfo: {
+            hasNextPage: true,
+            endCursor: "YXJyYXljb25uZWN0aW9uOjg5MTQy",
+          },
+        },
+      },
+    },
+  },
+  {
+    request: {
+      query: GET_PRODUCTS,
+      variables: { first: 5, after: "YXJyYXljb25uZWN0aW9uOjg5MTQy" },
+    },
+    result: {
+      data: {
+        products: {
+          edges: [
             {
               cursor: "YXJyYXljb25uZWN0aW9uOjg5MTQw",
               node: {
@@ -271,10 +291,14 @@ const mocks = [
               },
             },
           ],
-        },
-      },
-    },
-  },
+          pageInfo: {
+            hasNextPage: false,
+            endCursor: "YXJyYXljb25uZWN0aW9uOjg5MTMy",
+          }
+        }
+      }
+    }
+  }
 ];
 
 function ApolloMockProvider(props) {

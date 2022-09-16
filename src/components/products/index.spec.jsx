@@ -6,7 +6,7 @@ import ProductsList from ".";
 describe("ProductsList component", () => {
   const { baseElement, queryByText } = render(
     <ApolloMockProvider>
-      <ProductsList />
+      <ProductsList first={5} />
     </ApolloMockProvider>
   );
 
