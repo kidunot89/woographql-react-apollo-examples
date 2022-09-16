@@ -16,7 +16,7 @@ exports[`ProductsList component renders successfully 1`] = `
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/tea-tumbler.png"
+          src="https://example.com/content/uploads/2021/04/tea-tumbler.png"
           width="175px"
         />
         <div
@@ -56,7 +56,7 @@ Portable
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/9781849754323.png"
+          src="https://example.com/content/uploads/2021/04/9781849754323.png"
           width="175px"
         />
         <div
@@ -96,7 +96,7 @@ Supports wellness
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/GIVE-HATS-MEN-square.png"
+          src="https://example.com/content/uploads/2021/04/GIVE-HATS-MEN-square.png"
           width="175px"
         />
         <div
@@ -136,7 +136,7 @@ Protects against exposure
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/Product7_Transparent.png"
+          src="https://example.com/content/uploads/2021/04/Product7_Transparent.png"
           width="175px"
         />
         <div
@@ -176,7 +176,7 @@ Calming aroma
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/essential-oils-bundle.png"
+          src="https://example.com/content/uploads/2021/04/essential-oils-bundle.png"
           width="175px"
         />
         <div
@@ -216,7 +216,7 @@ Enhances mood
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/Energizing-square.png"
+          src="https://example.com/content/uploads/2021/04/Energizing-square.png"
           width="175px"
         />
         <div
@@ -256,7 +256,7 @@ Minimizes additional hair loss
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/DEDE-PHOTOSHOP-square.png"
+          src="https://example.com/content/uploads/2021/04/DEDE-PHOTOSHOP-square.png"
           width="175px"
         />
         <div
@@ -296,7 +296,7 @@ Creates volume
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/authentic-copy-square.png"
+          src="https://example.com/content/uploads/2021/04/authentic-copy-square.png"
           width="175px"
         />
         <div
@@ -336,7 +336,7 @@ Provides nourishment
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/OL-square.png"
+          src="https://example.com/content/uploads/2021/04/OL-square.png"
           width="175px"
         />
         <div
@@ -376,7 +376,7 @@ Revives and adds shine
         <img
           alt=""
           class="sc-hKMtZM hgCtbG"
-          src="https://shop.production.mendtogether.com/content/uploads/2021/04/6._Men_s_Hair_Regrowth_Gift_Set.png"
+          src="https://example.com/content/uploads/2021/04/6._Men_s_Hair_Regrowth_Gift_Set.png"
           width="175px"
         />
         <div

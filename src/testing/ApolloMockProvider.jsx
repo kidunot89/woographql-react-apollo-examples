@@ -16,7 +16,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTIwOQ==",
                 slug: "tea-tumbler",
-                uri: "https://www.mendtogether.com/product/tea-tumbler/",
+                uri: "https://example.com/product/tea-tumbler/",
                 name: "Tea Tumbler",
                 type: "SIMPLE",
                 shortDescription:
@@ -24,7 +24,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODQ0MA==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/tea-tumbler.png",
+                    "https://example.com/content/uploads/2021/04/tea-tumbler.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -40,7 +40,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTE0OA==",
                 slug: "vegetarian-tagines-couscous",
-                uri: "https://www.mendtogether.com/product/vegetarian-tagines-couscous/",
+                uri: "https://example.com/product/vegetarian-tagines-couscous/",
                 name: "Vegetarian Tagines & Couscous",
                 type: "SIMPLE",
                 shortDescription:
@@ -48,7 +48,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4Nzk3NQ==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/9781849754323.png",
+                    "https://example.com/content/uploads/2021/04/9781849754323.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -64,7 +64,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTE0Ng==",
                 slug: "gift-of-hats-men",
-                uri: "https://www.mendtogether.com/product/gift-of-hats-men/",
+                uri: "https://example.com/product/gift-of-hats-men/",
                 name: "Gift Of Hats (Men)",
                 type: "SIMPLE",
                 shortDescription:
@@ -72,7 +72,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODE1OA==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/GIVE-HATS-MEN-square.png",
+                    "https://example.com/content/uploads/2021/04/GIVE-HATS-MEN-square.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -80,19 +80,19 @@ const mocks = [
                     {
                       id: "cG9zdDo4ODEzMQ==",
                       sourceUrl:
-                        "https://shop.production.mendtogether.com/content/uploads/2021/04/Extra-soft-lightweight-hat-Black.png",
+                        "https://example.com/content/uploads/2021/04/Extra-soft-lightweight-hat-Black.png",
                       altText: "",
                     },
                     {
                       id: "cG9zdDo4ODEzMg==",
                       sourceUrl:
-                        "https://shop.production.mendtogether.com/content/uploads/2021/04/Extra-soft-lightweight-hat-BLUE.png",
+                        "https://example.com/content/uploads/2021/04/Extra-soft-lightweight-hat-BLUE.png",
                       altText: "",
                     },
                     {
                       id: "cG9zdDo4ODEzMw==",
                       sourceUrl:
-                        "https://shop.production.mendtogether.com/content/uploads/2021/04/Extra-soft-lightweight-hat.png",
+                        "https://example.com/content/uploads/2021/04/Extra-soft-lightweight-hat.png",
                       altText: "",
                     },
                   ],
@@ -107,7 +107,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTE0NA==",
                 slug: "organic-lavender-hand-sanitizer-spray",
-                uri: "https://www.mendtogether.com/product/organic-lavender-hand-sanitizer-spray/",
+                uri: "https://example.com/product/organic-lavender-hand-sanitizer-spray/",
                 name: "Organic Lavender Hand Sanitizer Spray",
                 type: "SIMPLE",
                 shortDescription:
@@ -115,7 +115,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODMxOQ==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/Product7_Transparent.png",
+                    "https://example.com/content/uploads/2021/04/Product7_Transparent.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -131,7 +131,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTE0Mg==",
                 slug: "aromatherapy-essential-oil-bundle",
-                uri: "https://www.mendtogether.com/product/aromatherapy-essential-oil-bundle/",
+                uri: "https://example.com/product/aromatherapy-essential-oil-bundle/",
                 name: "Aromatherapy Essential Oil Bundle",
                 type: "SIMPLE",
                 shortDescription:
@@ -139,7 +139,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODEzMA==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/essential-oils-bundle.png",
+                    "https://example.com/content/uploads/2021/04/essential-oils-bundle.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -155,7 +155,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTE0MA==",
                 slug: "hair-regrowth-gift-set",
-                uri: "https://www.mendtogether.com/product/hair-regrowth-gift-set/",
+                uri: "https://example.com/product/hair-regrowth-gift-set/",
                 name: "Hair Regrowth Gift Set",
                 type: "SIMPLE",
                 shortDescription:
@@ -163,7 +163,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODEyOQ==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/Energizing-square.png",
+                    "https://example.com/content/uploads/2021/04/Energizing-square.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -179,7 +179,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTEzOA==",
                 slug: "thinning-hair-gift-set",
-                uri: "https://www.mendtogether.com/product/thinning-hair-gift-set/",
+                uri: "https://example.com/product/thinning-hair-gift-set/",
                 name: "Thinning Hair Gift Set",
                 type: "SIMPLE",
                 shortDescription:
@@ -187,7 +187,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODA5NQ==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/DEDE-PHOTOSHOP-square.png",
+                    "https://example.com/content/uploads/2021/04/DEDE-PHOTOSHOP-square.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -203,7 +203,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTEzNg==",
                 slug: "sensitive-bathbody-gift-set",
-                uri: "https://www.mendtogether.com/product/sensitive-bathbody-gift-set/",
+                uri: "https://example.com/product/sensitive-bathbody-gift-set/",
                 name: "Sensitive Bath+Body Gift Set",
                 type: "SIMPLE",
                 shortDescription:
@@ -211,7 +211,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODAxNg==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/authentic-copy-square.png",
+                    "https://example.com/content/uploads/2021/04/authentic-copy-square.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -227,7 +227,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTEzNA==",
                 slug: "nourishing-hair-gift-set",
-                uri: "https://www.mendtogether.com/product/nourishing-hair-gift-set/",
+                uri: "https://example.com/product/nourishing-hair-gift-set/",
                 name: "Nourishing Hair Gift Set",
                 type: "SIMPLE",
                 shortDescription:
@@ -235,7 +235,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4ODI2Nw==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/OL-square.png",
+                    "https://example.com/content/uploads/2021/04/OL-square.png",
                   altText: "",
                 },
                 galleryImages: {
@@ -251,7 +251,7 @@ const mocks = [
               node: {
                 id: "cHJvZHVjdDo4OTEzMg==",
                 slug: "mens-hair-regrowth-gift-set",
-                uri: "https://www.mendtogether.com/product/mens-hair-regrowth-gift-set/",
+                uri: "https://example.com/product/mens-hair-regrowth-gift-set/",
                 name: "Men's Hair Regrowth Gift Set",
                 type: "SIMPLE",
                 shortDescription:
@@ -259,7 +259,7 @@ const mocks = [
                 image: {
                   id: "cG9zdDo4Nzk0MA==",
                   sourceUrl:
-                    "https://shop.production.mendtogether.com/content/uploads/2021/04/6._Men_s_Hair_Regrowth_Gift_Set.png",
+                    "https://example.com/content/uploads/2021/04/6._Men_s_Hair_Regrowth_Gift_Set.png",
                   altText: "",
                 },
                 galleryImages: {
