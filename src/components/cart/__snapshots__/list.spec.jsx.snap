@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="w-full mt-5 pb-5 md:pb-3 border-b-2 border-cornsilk-300 grid grid-cols-3 md:grid-cols-6 gap-y-3 md:gap-y-6 gap-x-0"
+    >
+      <div
+        class="px-5 py-2 w-full bg-lynch-50 font-serif font-bold text-lg mb-2 flex items-center col-span-1 rounded-l md:col-span-3"
+      >
+        Product
+      </div>
+      <div
+        class="px-5 py-2 w-full bg-lynch-50 font-serif font-bold text-lg mb-2 flex items-center justify-start col-span-1 md:px-0"
+      >
+        Quantity
+      </div>
+      <div
+        class="px-5 py-2 w-full bg-lynch-50 font-serif font-bold text-lg mb-2 hidden items-center col-span-1 md:flex"
+      >
+        Unit Price
+      </div>
+      <div
+        class="px-5 py-2 w-full bg-lynch-50 font-serif font-bold text-lg mb-2 flex items-center col-span-1 rounded-r"
+      >
+        Total
+      </div>
+    </div>
+  </div>
+</body>
+`;

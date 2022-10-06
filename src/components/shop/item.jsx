@@ -1,12 +1,13 @@
 import React from 'react';
 import parse, { domToReact } from 'html-react-parser';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import clsx from 'clsx';
 
-import Rail, { ProductRail } from '../rail';
 import Image from './image';
 import Price from './price';
 
-const ProductsItem = ({ data, ...rest }) => {
+const ProductsItem = ({ data, className, ...rest }) => {
   const {
     uri,
     name,
@@ -17,26 +18,30 @@ const ProductsItem = ({ data, ...rest }) => {
     galleryImages,
     type,
     shortDescription: description,
+    buttonText,
   } = data;
 
   return (
-    <Rail
-      as="a"
-      href={uri}
-      justifyContent="center"
-      direction="column"
+    <Link
+      className={clsx(
+        className && className,
+        "flex flex-col justify-center no-underline group"
+      )}
+      to={uri}
       {...rest}
     >
-      <Image data={{ image, galleryImages }} width="175px" squared noUI />
-      <ProductRail
-        direction="column"
-        height="175px"
-        width="175px"
-        alignItems="center"
-        inline
-        shrink
+      <Image
+        className="w-44"
+        data={{ image, galleryImages }}
+      />
+      <div
+        className="inline-flex flex-col justify-center items-center shrink w-44 h-44"
       >
-        <div className="product-name">
+        <div className={clsx(
+          'mt-0.5 mx-0.5 mb-0',
+          'text-base text-center transition-colors duration-500',
+          'group-hover:text-persian-green',
+        )}>
           {onSale && (
             <>
               <span className="badge">On Sale</span>
@@ -51,22 +56,24 @@ const ProductsItem = ({ data, ...rest }) => {
                 replace({ name, children }) {
                   if (name === 'p') {
                     return (
-                      <small>{domToReact(children)}</small>
+                      <small className="text-lynch">{domToReact(children)}</small>
                     )
                   }
                 }
               })}
             </>
           )}
-          <Price
-            type={type}
-            onSale={onSale}
-            price={price}
-            regularPrice={regularPrice}
-          />
+          {price && (
+            <Price
+              type={type}
+              onSale={onSale}
+              price={price}
+              regularPrice={regularPrice}
+            />
+          )}
         </div>
-      </ProductRail>
-    </Rail>
+      </div>
+    </Link>
   );
 };
 

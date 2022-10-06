@@ -5,7 +5,7 @@ exports[`Image component renders default image successfully 1`] = `
   <div>
     <img
       alt="product image"
-      class="sc-bczRLJ hkeKaj"
+      class="max-w-full"
       src="http://place-puppy.com/640x640"
     />
   </div>
@@ -17,7 +17,7 @@ exports[`Image component renders provided successfully 1`] = `
   <div>
     <img
       alt="It's a dog"
-      class="sc-bczRLJ hkeKaj"
+      class="max-w-full"
       src="https://place-puppy.com/300x300"
     />
   </div>
@@ -32,7 +32,7 @@ exports[`Image component renders provided successfully 2`] = `
   <img
 -   alt=\\"It's a dog\\"
 +   alt=\\"product image\\"
-    className=\\"sc-bczRLJ hkeKaj\\"
+    className=\\"max-w-full\\"
 -   src=\\"https://place-puppy.com/300x300\\"
 +   src=\\"http://place-puppy.com/640x640\\"
   />"

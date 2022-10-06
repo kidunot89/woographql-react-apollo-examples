@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import clsx from 'clsx';
 
 /**
  * Returns the proper width for the image.
@@ -40,18 +40,24 @@ function getWidth(props, raw = false) {
   return raw ? parseFloat(output) : output;
 }
 
-const Image = styled.img`
-  max-width: 100%;
-  width: ${(props) => getWidth(props) ? getWidth(props) : '100%'};
-  ${({ rounded }) => rounded && `border-radius: 50%;`}
-`;
+const ProductImage = ({ data, rounded, className, ...rest }) => {
+  const width = getWidth(rest);
 
-const ProductImage = ({ data, ...rest }) => {
-  const { image } = data;
-
-  return image 
-    ? <Image src={data.image.sourceUrl} alt={data.image.altText} {...rest} />
-    : <Image src="http://place-puppy.com/640x640" alt="no product image found" {...rest} />;
+  return (
+    <img
+      className={clsx(
+        'max-w-full',
+        className && className,
+        {
+          'w-full': width,
+          'rounded': rounded,
+        },
+      )}
+      src={data?.image ? data.image.sourceUrl : 'http://place-puppy.com/640x640'}
+      alt={data?.image ? data.image.altText : 'no product image found'}
+      {...rest}
+    />
+  );
 };
 
 const imagePropType = PropTypes.shape({

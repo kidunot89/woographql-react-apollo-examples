@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item component renders successfully 1`] = `
+<body>
+  <div>
+    <a
+      class="flex flex-col justify-center no-underline group"
+      href="/"
+      type="normal"
+    >
+      <img
+        alt=""
+        class="max-w-full w-44"
+        src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg"
+      />
+      <div
+        class="inline-flex flex-col justify-center items-center shrink w-44 h-44"
+      >
+        <div
+          class="mt-0.5 mx-0.5 mb-0 text-base text-center transition-colors duration-500 group-hover:text-persian-green"
+        >
+          XL Scrunchie
+          <br />
+          <small
+            class="text-lynch"
+          >
+            Beautiful hair scrunchie.
+          </small>
+          
+
+          <p
+            class="mt-0.5 mx-0.5 mb-0 text-sm text-shark group-hover:text-shark-900"
+          >
+            $10.00 - $15.00
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</body>
+`;

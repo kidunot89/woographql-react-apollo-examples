@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductGallery should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="w-full min-h-[6rem]"
+    >
+      <div
+        aria-live="polite"
+        class="image-gallery"
+      >
+        <div
+          class="image-gallery-content bottom"
+        >
+          <div
+            class="image-gallery-slide-wrapper bottom"
+          >
+            <div
+              class="image-gallery-swipe"
+            >
+              <div
+                class="image-gallery-slides"
+              >
+                <div
+                  aria-label="Go to Slide 1"
+                  class="image-gallery-slide  center "
+                  role="button"
+                  style="display: inherit; transform: translate3d(0%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 2"
+                  class="image-gallery-slide  right "
+                  role="button"
+                  style="display: inherit; transform: translate3d(100%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163004-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 3"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(200%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 4"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(300%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163401-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 5"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(400%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_1634440-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 6"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(500%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_171640-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 7"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(600%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_171658-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 8"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(700%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_172700-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 9"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(800%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_172729-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 10"
+                  class="image-gallery-slide  "
+                  role="button"
+                  style="display: inherit; transform: translate3d(900%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_173018-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-label="Go to Slide 11"
+                  class="image-gallery-slide  left "
+                  role="button"
+                  style="display: inherit; transform: translate3d(-100%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <div
+                    class="w-full h-full relative flex justify-center max-h-screen"
+                  >
+                    <img
+                      alt=""
+                      class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                      height="undefined"
+                      layout="fill"
+                      src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_1655550-scaled.jpg"
+                      width="undefined"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="image-gallery-bullets"
+            >
+              <div
+                aria-label="Bullet Navigation"
+                class="image-gallery-bullets-container"
+                role="navigation"
+              >
+                <button
+                  aria-label="Go to Slide 1"
+                  aria-pressed="true"
+                  class="image-gallery-bullet active"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 2"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 3"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 4"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 5"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 6"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 7"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 8"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 9"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 10"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+                <button
+                  aria-label="Go to Slide 11"
+                  aria-pressed="false"
+                  class="image-gallery-bullet"
+                  type="button"
+                />
+              </div>
+            </div>
+            <button
+              aria-label="Open Fullscreen"
+              class="image-gallery-icon image-gallery-fullscreen-button"
+              type="button"
+            >
+              <svg
+                class="image-gallery-svg"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

@@ -1,13 +1,26 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@layer components {
+  /**
+    * Buttons.
+    */
+  .primary-button {
+    @apply px-6 py-2.5 bg-blue-bayoux text-white hover:bg-blue-bayoux-900 hover:text-gray-50 rounded transition duration-500 font-bold shadow-none;
+  }
+
+  .secondary-button {
+    @apply px-6 py-2.5 bg-transparent border border-blue-bayoux text-blue-bayoux hover:bg-blue-bayoux-300 hover:text-gray-900 rounded transition duration-500 font-bold;
+  }
+
+  .cta-button {
+    @apply px-6 py-2.5 bg-persian-green text-white hover:bg-persian-green-800 hover:text-white rounded transition duration-500 font-bold;
+  }
 }

@@ -1,9 +1,9 @@
 // products/index.jsx
 import React from 'react';
 import { useQuery, gql } from '@apollo/client';
-import PropTypes from 'prop-types';
+import clsx from 'clsx';
 
-import Grid from '../grid';
+import Spinner from '../spinner';
 import ProductsItem from './item';
 
 export const GET_PRODUCTS = gql`
@@ -52,17 +52,23 @@ export const GET_PRODUCTS = gql`
   }
 `;
 
-const ProductsList = (props) => {
+const Shop = (props) => {
   const {
     columns,
     itemWidth,
     width,
     ...variables
   } = props;
-  const { data, loading, error, fetchMore } = useQuery(GET_PRODUCTS, { variables });
+  const { data, loading, error, fetchMore } = useQuery(
+    GET_PRODUCTS,
+    {
+      variables,
+      notifyOnNetworkStatusChange: true,
+    },
+  );
   
-  if (loading) {
-    return <div>Fetching products...</div>
+  if (loading && !data) {
+    return <Spinner className="h-32 max-h-full w-full">Fetching products...</Spinner>;
   }
 
   if (error) {
@@ -86,42 +92,30 @@ const ProductsList = (props) => {
 
   return (
     <>
-      <Grid maxWidth="100%" columns={columns} itemWidth={itemWidth}>
+      <div
+        className={clsx(
+          'container mx-auto relative py-3 px-4 max-w-full',
+          'grid grid-cols-1 gap-y-8',
+          'md:grid-cols-3',
+          'lg:max-w-4xl lg:grid-cols-4 lg:gap-4',
+        )}
+      >
         {products.map(({ node }) => {
           return (
-            <ProductsItem key={node.id} data={node} width={itemWidth} />
+            <ProductsItem className="mx-auto border border-shark rounded" key={node.id} data={node} width={itemWidth} />
           );
         })}
-      </Grid>
+      </div>
       {hasMore() && (
         <button
+          className="cta-button fixed mb-4 bottom-0 left-1/2 -translate-x-1/2 w-1/2"
           onClick={loadMore}
-          style={{
-            position: 'fixed',
-            marginBottom: '1rem',
-            bottom: 0,
-            left: '50%',
-            transform: 'translate(-50%',
-            width: '50%'
-          }}
         >
-          Load More
+          {loading ? <Spinner className="h-6 max-h-full" /> : 'Load More'}
         </button>
       )}
     </>
   );
 };
 
-ProductsList.propTypes = {
-  columns: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  itemWidth: PropTypes.string,
-  width: PropTypes.string
-};
-
-ProductsList.defaultProps = {
-  columns: 'auto-fit',
-  itemWidth: '375px',
-  width: undefined,
-};
-
-export default ProductsList;
+export default Shop;

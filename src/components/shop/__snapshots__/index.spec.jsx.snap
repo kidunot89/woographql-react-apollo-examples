@@ -1,63 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders successfully 1`] = `
+exports[`ProductsList component renders successfully 1`] = `
 <body>
   <div>
-    <nav
-      class="navbar top-0 z-40 sticky bg-gray-300 text-shark"
-    >
-      <div
-        class="max-w-screen-sm mx-auto px-2 sm:px-6 md:max-w-screen-md lg:max-w-screen-lg lg:px-8 xl:max-w-screen-xl"
-      >
-        <div
-          class="relative h-24 min-h-full flex items-center justify-between gap-x-10 lg:flex-nowrap"
-        >
-          <div
-            class="justify-self-start inline-flex items-center"
-          >
-            <div
-              class="h-14 w-14 max-h-[90%]"
-            >
-              <svg
-                class="w-full h-full"
-                height="100"
-                viewBox="0 0 100 100"
-                width="100"
-              >
-                <circle
-                  class="stroke-shark fill-blue-bayoux stroke-[3]"
-                  cx="50"
-                  cy="50"
-                  r="40"
-                />
-              </svg>
-            </div>
-            <h1
-              class="my-0 ml-3 hidden font-serif text-3xl font-bold text-shark lg:block"
-            >
-              ¯\\_(ツ)_/¯
-            </h1>
-          </div>
-          <a
-            class="px-6 py-2.5 mx-auto rounded transition-colors font-sans font-bold text-lg hover:text-white hover:bg-shark"
-            href="/"
-          >
-            Shop
-          </a>
-          <a
-            class="px-2 py-2.5 rounded transition-colors icon-button text-lg hover:text-white hover:bg-shark"
-            href="/cart"
-          >
-            <i
-              class="fa-solid fa-basket-shopping"
-            />
-            <span
-              class="font-sans text-base font-bold ml-2"
-            />
-          </a>
-        </div>
-      </div>
-    </nav>
     <div
       class="container mx-auto relative py-3 px-4 max-w-full grid grid-cols-1 gap-y-8 md:grid-cols-3 lg:max-w-4xl lg:grid-cols-4 lg:gap-4"
     >

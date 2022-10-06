@@ -2,6 +2,116 @@
 
 exports[`Product component renders successfully 1`] = `
 <body>
-  <div />
+  <div>
+    <div
+      class="grid grid-cols-12 auto-rows-auto"
+    >
+      <div
+        class="col-span-12 pt-4 px-12 pb-2 text-2xl block md:hidden block font-semibold mb-2 text-lg"
+      />
+      <div
+        class="col-span-12 pt-4 px-12 pb-2 md:col-span-6"
+      >
+        <div
+          class="block font-semibold mb-2 text-lg"
+        >
+          Gallery
+        </div>
+        <div
+          class="w-full min-h-[6rem]"
+        >
+          <div
+            aria-live="polite"
+            class="image-gallery"
+          >
+            <div
+              class="image-gallery-content bottom"
+            >
+              <div
+                class="image-gallery-slide-wrapper bottom"
+              >
+                <div
+                  class="image-gallery-slides"
+                >
+                  <div
+                    aria-label="Go to Slide 1"
+                    class="image-gallery-slide  center "
+                    role="button"
+                    style="display: inherit; transform: translate3d(0%, 0, 0);"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="w-full h-full relative flex justify-center max-h-screen"
+                    >
+                      <img
+                        class="relative object-contain max-h-[90vh] max-w-full w-full h-auto"
+                        height="undefined"
+                        layout="fill"
+                        width="undefined"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="image-gallery-bullets"
+                >
+                  <div
+                    aria-label="Bullet Navigation"
+                    class="image-gallery-bullets-container"
+                    role="navigation"
+                  >
+                    <button
+                      aria-label="Go to Slide 1"
+                      aria-pressed="true"
+                      class="image-gallery-bullet active"
+                      type="button"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-label="Open Fullscreen"
+                  class="image-gallery-icon image-gallery-fullscreen-button"
+                  type="button"
+                >
+                  <svg
+                    class="image-gallery-svg"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-span-12 pt-4 px-12 pb-2 md:col-span-6"
+      >
+        <div
+          class="text-2xl hidden md:block block font-semibold mb-2 text-lg"
+        />
+        <div />
+      </div>
+      <div
+        class="col-span-12 pt-4 px-12 pb-2"
+      >
+        <div
+          class="block font-semibold mb-2 text-lg"
+        >
+          Description
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
 </body>
 `;

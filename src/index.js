@@ -2,35 +2,17 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import {
-  ApolloClient,
-  HttpLink,
-  InMemoryCache,
-  ApolloProvider
-} from '@apollo/client';
-import { relayStylePagination } from '@apollo/client/utilities';
+import { ApolloProvider } from '@apollo/client';
+import createApolloClient from './client';
 
 // Local imports
 import App from './components/app';
-import introspectionData from './possibleTypes.json';
+import '@fortawesome/fontawesome-free/css/fontawesome.css';
+import '@fortawesome/fontawesome-free/css/brands.css';
+import '@fortawesome/fontawesome-free/css/solid.css';
+import './index.css';
 
-const typePolicies = {
-  RootQuery: {
-    queryType: true,
-    fields: {
-      products: relayStylePagination(['where']),
-    },
-  },
-};
-
-const client = new ApolloClient({
-  link: new HttpLink({ uri: process.env.REACT_APP_ENDPOINT }),
-  cache: new InMemoryCache({
-    possibleTypes: introspectionData.possibleTypes,
-    typePolicies,
-  }),
-  connectToDevTools: true,
-});
+const client = createApolloClient();
 
 const container = document.getElementById('root');
 const root = createRoot(container);

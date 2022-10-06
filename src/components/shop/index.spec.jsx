@@ -1,12 +1,15 @@
 import { render, waitFor } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
 
-import ApolloMockProvider from "../../testing/ApolloMockProvider";
+import ApolloMockProvider from "../../testing/apollo-mock-provider";
 import ProductsList from ".";
 
 describe("ProductsList component", () => {
   const { baseElement, queryByText } = render(
     <ApolloMockProvider>
-      <ProductsList first={5} />
+      <MemoryRouter>
+        <ProductsList first={5} />
+      </MemoryRouter>
     </ApolloMockProvider>
   );
 

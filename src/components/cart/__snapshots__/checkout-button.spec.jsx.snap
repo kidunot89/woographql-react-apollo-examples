@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutButton should render successfully 1`] = `
+<body>
+  <div>
+    <a
+      class="primary-button mx-6 py-3 w-full text-center text-xl mb-5"
+    >
+      <i
+        class="fa-solid fa-cash-register mr-5"
+      />
+      Checkout
+    </a>
+  </div>
+</body>
+`;

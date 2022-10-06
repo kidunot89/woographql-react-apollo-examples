@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quantity input control should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="inline-flex gap-x-3 items-center"
+    >
+      <span
+        class="font-sans font-bold"
+      >
+        0
+      </span>
+      <div
+        class="relative inline-block w-20"
+      >
+        <div
+          class="appearance-none block text-center leading-5 m-0 py-2.5 px-0 h-8 outline-transparent outline outline-2 outline-offset-2 border rounded quantity-input"
+          readonly=""
+          type="number"
+          value="0"
+        />
+        <div
+          class="icon-button absolute z-10 left-2.5 top-1/2 -translate-y-1/2"
+          role="button"
+          tabindex="0"
+        >
+          <i
+            class="fa-solid fa-minus"
+          />
+        </div>
+        <div
+          class="icon-button absolute z-10 right-2.5 top-1/2 -translate-y-1/2"
+          role="button"
+          tabindex="0"
+        >
+          <i
+            class="fa-solid fa-plus"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

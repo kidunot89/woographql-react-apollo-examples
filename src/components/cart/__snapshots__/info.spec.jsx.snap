@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasketInfo should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="w-full grid grid-cols-4 grid-rows-4 md:gap-5 py-5"
+    >
+      <div
+        class="border-b-2 border-cornsilk-300 md:border-none mb-5 col-span-4 md:col-span-2 row-span-1 md:row-span-2"
+      >
+        <div
+          class="px-5 py-2 w-full bg-lynch-50 font-serif font-bold text-lg mb-2 rounded-md mb-5"
+        >
+          Apply Coupon
+        </div>
+        <div
+          class="w-full flex flex-col justify-center items-center px-5"
+        >
+          <input
+            class="py-2 px-3 pr-8 block w-full mb-2 appearance-none rounded border transition duration-500 bg-gray-50 leading-tight focus:shadow focus:border-shark focus:outline-none"
+            placeholder="Enter a coupon code"
+            value=""
+          />
+          <button
+            class="secondary-button w-full mb-5"
+            type="button"
+          >
+            Apply
+          </button>
+        </div>
+      </div>
+      <div
+        class="col-span-4 md:col-span-2 row-span-4 flex flex-col"
+      >
+        <span
+          class="px-5 py-2 w-full bg-lynch-50 font-serif font-bold text-lg mb-2 rounded-md mb-5"
+        >
+          Order Details
+        </span>
+        <div
+          class="w-full flex justify-between  px-5 py-1 font-sans"
+        >
+          <span
+            class="font-bold text-lg"
+          >
+            Subtotal
+          </span>
+          <span
+            class="font-bold text-lg"
+          />
+        </div>
+        <div
+          class="w-full flex justify-between px-5 py-1 font-sans"
+        >
+          <span
+            class="font-bold text-lg"
+          >
+            Tax
+          </span>
+          <span
+            class="font-bold text-lg"
+          />
+        </div>
+        <div
+          class="w-full flex justify-between px-5 py-1 font-sans"
+        >
+          <span
+            class="font-bold text-lg"
+          >
+            Total
+          </span>
+          <span
+            class="font-bold text-lg"
+          />
+        </div>
+      </div>
+      <div
+        class="col-span-4 md:col-span-2 row-span-2"
+      />
+    </div>
+  </div>
+</body>
+`;
