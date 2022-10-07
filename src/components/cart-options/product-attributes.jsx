@@ -21,10 +21,7 @@ function ProductAttributes({ variations, attributes, setVariation }) {
       ({ attributes: variationAttributes }) => (
         variationAttributes?.nodes || []
       )?.every(
-        ({ value, label }) => {
-          console.log({ value, label }, selectedAttributes)
-          return selectedAttributes[label] === value;
-        },
+        ({ value, label }) => selectedAttributes[label] === value,
       ),
     );
 

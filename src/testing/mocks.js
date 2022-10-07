@@ -8,59 +8,59 @@ export const mockProduct = {
   shortDescription: '<p>Beautiful hair scrunchie.</p>\n',
   image: {
     id: 'cG9zdDozMTk=',
-    sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
+    sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
     altText: '',
   },
   galleryImages: {
     nodes: [
       {
         id: 'cG9zdDozMjA=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163004-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163004-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMTk=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMTg=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163401-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163401-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMTc=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_1634440-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_1634440-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMjY=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_171640-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_171640-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMjc=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_171658-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_171658-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMjk=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_172700-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_172700-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMzA=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_172729-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_172729-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMzI=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_173018-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_173018-scaled.jpg',
         altText: '',
       },
       {
         id: 'cG9zdDozMjQ=',
-        sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_1655550-scaled.jpg',
+        sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_1655550-scaled.jpg',
         altText: '',
       },
     ],
@@ -154,59 +154,59 @@ export const mockProducts = [
     shortDescription: '<p>Beautiful hair scrunchie.</p>\n',
     image: {
       id: 'cG9zdDozMTk=',
-      sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
+      sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
       altText: '',
     },
     galleryImages: {
       nodes: [
         {
           id: 'cG9zdDozMjA=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163004-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163004-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMTk=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMTg=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163401-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_163401-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMTc=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_1634440-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_1634440-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMjY=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_171640-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_171640-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMjc=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_171658-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_171658-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMjk=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_172700-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_172700-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMzA=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_172729-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_172729-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMzI=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_173018-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_173018-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMjQ=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_1655550-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_1655550-scaled.jpg',
           altText: '',
         },
       ],
@@ -240,59 +240,59 @@ export const mockProducts = [
     shortDescription: '<p>Beautiful hair scrunchie.</p>\n',
     image: {
       id: 'cG9zdDozMzg=',
-      sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_174447-scaled.jpg',
+      sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_174447-scaled.jpg',
       altText: '',
     },
     galleryImages: {
       nodes: [
         {
           id: 'cG9zdDozMzk=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_174414-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_174414-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMzY=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_174145-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_174145-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMzc=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_174148-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_174148-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMTM=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_134111-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_134111-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMTI=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_134118-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_134118-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMTE=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_134122-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_134122-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMTA=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_134123-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_134123-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMDk=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_134127-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_134127-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMDg=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_134139-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_134139-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDozMDc=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_134151-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220805_134151-scaled.jpg',
           altText: '',
         },
       ],
@@ -321,7 +321,7 @@ export const mockProducts = [
     shortDescription: '<p>2-sided reversible colors, adjustable elastic straps, metal nose guard, filter pocket, triple layer fabric</p>\n',
     image: {
       id: 'cG9zdDoyOTM=',
-      sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/il_1588xN.3779177202_848p-e1659655142770.jpg',
+      sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/il_1588xN.3779177202_848p-e1659655142770.jpg',
       altText: '',
     },
     galleryImages: {
@@ -345,49 +345,49 @@ export const mockProducts = [
     shortDescription: '<p>Bright colorful print, Adult face mask, Elastic straps</p>\n',
     image: {
       id: 'cG9zdDoyMzc=',
-      sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162412-scaled.jpg',
+      sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162412-scaled.jpg',
       altText: '',
     },
     galleryImages: {
       nodes: [
         {
           id: 'cG9zdDoyNDA=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162405-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162405-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyMjQ=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162806-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162806-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNTA=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162303-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162303-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNDk=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162305-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162305-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNDQ=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162323-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162323-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNDg=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162308-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162308-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNDY=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162317-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162317-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyMjk=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162506-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162506-scaled.jpg',
           altText: '',
         },
       ],
@@ -410,39 +410,39 @@ export const mockProducts = [
     shortDescription: '<p>Kids size mask, vibrant colors, unicorn print</p>\n',
     image: {
       id: 'cG9zdDoyNzg=',
-      sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_161529-scaled.jpg',
+      sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_161529-scaled.jpg',
       altText: '',
     },
     galleryImages: {
       nodes: [
         {
           id: 'cG9zdDoyNzY=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_161611-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_161611-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyMjY=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162743-scaled-e1659626151517.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162743-scaled-e1659626151517.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNzc=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_161559-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_161559-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNjE=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162100-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162100-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNjI=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162049-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162049-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyNTk=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162106-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162106-scaled.jpg',
           altText: '',
         },
       ],
@@ -465,19 +465,19 @@ export const mockProducts = [
     shortDescription: '<p>Handmade soft plump Ankara 100% cotton bracelet</p>\n',
     image: {
       id: 'cG9zdDo2NQ==',
-      sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/PXL_20220802_001327052-1-scaled.jpg',
+      sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/PXL_20220802_001327052-1-scaled.jpg',
       altText: '',
     },
     galleryImages: {
       nodes: [
         {
           id: 'cG9zdDo1NQ==',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/PXL_20220802_001407631-1-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/PXL_20220802_001407631-1-scaled.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDo2Nw==',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/PXL_20220802_001324297-1-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/PXL_20220802_001324297-1-scaled.jpg',
           altText: '',
         },
       ],
@@ -500,19 +500,19 @@ export const mockProducts = [
     shortDescription: '<p>Hand Made, Fun Prints, Multiple Pockets, Zipper Opening</p>\n<p>&nbsp;</p>\n',
     image: {
       id: 'cG9zdDoyODg=',
-      sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220804_114228-scaled-e1659628033364.jpg',
+      sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220804_114228-scaled-e1659628033364.jpg',
       altText: '',
     },
     galleryImages: {
       nodes: [
         {
           id: 'cG9zdDoyMjI=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162844-scaled-e1659627050692.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162844-scaled-e1659627050692.jpg',
           altText: '',
         },
         {
           id: 'cG9zdDoyMjA=',
-          sourceUrl: 'https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220803_162852-scaled.jpg',
+          sourceUrl: 'https://example.com/app/uploads/sites/3/2022/08/20220803_162852-scaled.jpg',
           altText: '',
         },
       ],

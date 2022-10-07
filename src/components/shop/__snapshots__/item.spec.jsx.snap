@@ -10,7 +10,7 @@ exports[`Item component renders successfully 1`] = `
       <img
         alt=""
         class="max-w-full w-44"
-        src="https://superduper.axistaylor.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg"
+        src="https://example.com/app/uploads/sites/3/2022/08/20220805_163026-scaled.jpg"
       />
       <div
         class="inline-flex flex-col justify-center items-center shrink w-44 h-44"

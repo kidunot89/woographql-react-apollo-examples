@@ -1,6 +1,6 @@
 import React from 'react';
 import '@testing-library/react/dont-cleanup-after-each';
-import { render, cleanup } from '@testing-library/react';
+import { render, cleanup, waitFor } from '@testing-library/react';
 
 import ApolloMockProvider from '../../testing/apollo-mock-provider';
 import SessionProvider from '../session-provider';
@@ -8,7 +8,7 @@ import CheckoutButton from './checkout-button';
 
 describe('CheckoutButton', () => {
   afterAll(() => cleanup());
-  const { baseElement } = render(
+  const { baseElement, getByText } = render(
     <ApolloMockProvider>
       <SessionProvider>
         <CheckoutButton />
@@ -16,7 +16,8 @@ describe('CheckoutButton', () => {
     </ApolloMockProvider>,
   );
 
-  it('should render successfully', () => {
+  it('should render successfully', async () => {
+    await waitFor(() => expect(getByText(/Checkout/)).toBeTruthy());
     expect(baseElement).toMatchSnapshot();
   });
 });

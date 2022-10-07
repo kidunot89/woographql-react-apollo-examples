@@ -5,6 +5,7 @@ exports[`CheckoutButton should render successfully 1`] = `
   <div>
     <a
       class="primary-button mx-6 py-3 w-full text-center text-xl mb-5"
+      href="http://example.com/checkout/checkout?session_id=t_470b1dc6f84165a355ebde33510e53&_wpnonce=629602a9cb"
     >
       <i
         class="fa-solid fa-cash-register mr-5"
