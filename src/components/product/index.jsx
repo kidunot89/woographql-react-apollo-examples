@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom';
 import clsx from 'clsx';
 
 import Gallery from './gallery';
-import CartOptions from './cart-options';
-import GroupedCartOptions from './grouped-cart-options';
+import CartOptions from '../cart-options';
+import GroupedCartOptions from '../grouped-cart-options';
 import SectionHeader from '../section-header';
 import Spinner from '../spinner';
 

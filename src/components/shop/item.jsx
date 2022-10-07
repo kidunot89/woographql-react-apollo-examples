@@ -1,6 +1,5 @@
 import React from 'react';
 import parse, { domToReact } from 'html-react-parser';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
 
@@ -18,7 +17,6 @@ const ProductsItem = ({ data, className, ...rest }) => {
     galleryImages,
     type,
     shortDescription: description,
-    buttonText,
   } = data;
 
   return (
@@ -75,28 +73,6 @@ const ProductsItem = ({ data, className, ...rest }) => {
       </div>
     </Link>
   );
-};
-
-ProductsItem.propTypes = {
-  data: PropTypes.shape({
-    name: PropTypes.string,
-    slug: PropTypes.string,
-    uri: PropTypes.string,
-    onSale: PropTypes.bool,
-    regularPrice: PropTypes.string,
-    price: PropTypes.string,
-    image: PropTypes.shape({}),
-    galleryImages: PropTypes.shape({
-      nodes: PropTypes.arrayOf(PropTypes.shape({}))
-    }),
-    type: PropTypes.string,
-    shortDescription: PropTypes.string,
-  }),
-};
-
-ProductsItem.defaultProps = {
-  data: {},
-  type: 'normal',
 };
 
 export default ProductsItem;

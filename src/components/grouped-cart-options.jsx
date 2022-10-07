@@ -1,7 +1,7 @@
 import { useQuery, gql } from '@apollo/client';
 import { Link } from 'react-router-dom';
 
-import Spinner from '../spinner';
+import Spinner from './spinner';
 import CartOptions from './cart-options';
 
 const GET_PRODUCT_CART_INFO_SLICE = gql`
@@ -36,6 +36,35 @@ const GET_PRODUCT_CART_INFO_SLICE = gql`
         price
         regularPrice
         salePrice
+        variations(first: 50) {
+          nodes {
+            id
+            databaseId
+            name
+            price
+            rawPrice: price(format: RAW)
+            regularPrice
+            salePrice
+            onSale
+            stockStatus
+            stockQuantity
+            image {
+              id
+              sourceUrl
+              thumbnailUrl: sourceUrl(size: WOOCOMMERCE_THUMBNAIL)
+              altText
+              sizes
+            }
+            attributes {
+              nodes {
+                id
+                name
+                label
+                value
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -48,7 +77,7 @@ function SingleProductCartOptions({ id }) {
   );
 
   if (loading) {
-    return (<Spinner />)
+    return (<Spinner className="h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25" />)
   }
 
   const product = data?.product;

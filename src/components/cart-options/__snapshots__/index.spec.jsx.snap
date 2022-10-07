@@ -38,7 +38,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
         class="flex flex-wrap items-center p-0 w-full mt-5 gap-y-3 lg:flex-nowrap lg:gap-x-3"
       >
         <span
-          class="w-1/4 lg:"
+          class="w-1/4"
         >
           $
           10

@@ -2,11 +2,28 @@ import clsx from 'clsx';
 
 const QuantitySelector = (props) => {
   const {
-    value,
-    onIncrement,
-    onDecrement,
     className,
+    value,
+    min,
+    max,
+    onChange,
   } = props;
+
+  const onIncrement = () => {
+    if (max === value) {
+      return;
+    }
+
+    onChange(value + 1);
+  };
+
+  const onDecrement = () => {
+    if (min === value) {
+      return;
+    }
+
+    onChange(value - 1);
+  };
 
   return (
     <div className={clsx(

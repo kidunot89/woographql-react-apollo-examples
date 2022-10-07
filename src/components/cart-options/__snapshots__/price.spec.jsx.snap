@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product price should render successfully 1`] = `
+<body>
+  <div>
+    <span>
+      $
+      150
+    </span>
+  </div>
+</body>
+`;

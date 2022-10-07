@@ -5,7 +5,7 @@ import { render, cleanup } from '@testing-library/react';
 import { mockProduct } from '../../testing/mocks';
 import ApolloMockProvider from '../../testing/apollo-mock-provider';
 import SessionProvider from '../session-provider';
-import CartOptions from './cart-options';
+import CartOptions from '.';
 
 describe('CartOptions for mocked product', () => {
   afterAll(() => cleanup());

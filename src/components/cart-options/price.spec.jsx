@@ -2,16 +2,13 @@ import React from 'react';
 import '@testing-library/react/dont-cleanup-after-each';
 import { render, cleanup } from '@testing-library/react';
 
-import { mockProduct } from '../../testing/mocks';
-import Options from './options';
-import ApolloMockProvider from '../../testing/apollo-mock-provider';
+import Price from './price';
 
-describe('Options', () => {
+describe('Product price', () => {
   afterAll(() => cleanup());
+
   const { baseElement } = render(
-    <ApolloMockProvider>
-      <Options product={mockProduct} />
-    </ApolloMockProvider>,
+    <Price amount={150} />,
   );
 
   it('should render successfully', () => {

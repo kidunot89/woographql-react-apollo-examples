@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product variation attributes should render successfully 1`] = `
+<body>
+  <div>
+    <div>
+      <div>
+        <div
+          class="font-bold"
+        />
+        <div>
+          <label>
+            <input
+              checked=""
+              class="mr-3 text-center"
+              name="Print"
+              type="radio"
+              value="ankara"
+            />
+            Ankara
+          </label>
+        </div>
+        <div>
+          <label>
+            <input
+              class="mr-3 text-center"
+              name="Print"
+              type="radio"
+              value="candy-skull"
+            />
+            Candy skull
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

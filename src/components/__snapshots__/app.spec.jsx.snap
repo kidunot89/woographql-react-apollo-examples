@@ -64,7 +64,6 @@ exports[`App component renders successfully 1`] = `
       <a
         class="mx-auto border border-shark rounded flex flex-col justify-center no-underline group"
         href="/"
-        type="normal"
       >
         <img
           alt=""
@@ -95,7 +94,6 @@ Portable
       <a
         class="mx-auto border border-shark rounded flex flex-col justify-center no-underline group"
         href="/"
-        type="normal"
       >
         <img
           alt=""
@@ -126,7 +124,6 @@ Supports wellness
       <a
         class="mx-auto border border-shark rounded flex flex-col justify-center no-underline group"
         href="/"
-        type="normal"
       >
         <img
           alt=""
@@ -157,7 +154,6 @@ Protects against exposure
       <a
         class="mx-auto border border-shark rounded flex flex-col justify-center no-underline group"
         href="/"
-        type="normal"
       >
         <img
           alt=""
@@ -188,7 +184,6 @@ Calming aroma
       <a
         class="mx-auto border border-shark rounded flex flex-col justify-center no-underline group"
         href="/"
-        type="normal"
       >
         <img
           alt=""

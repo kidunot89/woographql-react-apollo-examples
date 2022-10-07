@@ -6,7 +6,6 @@ exports[`Item component renders successfully 1`] = `
     <a
       class="flex flex-col justify-center no-underline group"
       href="/"
-      type="normal"
     >
       <img
         alt=""

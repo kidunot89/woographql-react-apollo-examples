@@ -5,7 +5,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
   <div>
     <div>
       <div
-        class="flex justify-center items-center relative m-0"
+        class="flex justify-center items-center relative m-0 h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25"
       >
         <svg
           class="animate-spin h-full w-5 text-persian-green-50 mr-3"
@@ -30,7 +30,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
         <span />
       </div>
       <div
-        class="flex justify-center items-center relative m-0"
+        class="flex justify-center items-center relative m-0 h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25"
       >
         <svg
           class="animate-spin h-full w-5 text-persian-green-50 mr-3"
@@ -55,7 +55,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
         <span />
       </div>
       <div
-        class="flex justify-center items-center relative m-0"
+        class="flex justify-center items-center relative m-0 h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25"
       >
         <svg
           class="animate-spin h-full w-5 text-persian-green-50 mr-3"
@@ -80,7 +80,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
         <span />
       </div>
       <div
-        class="flex justify-center items-center relative m-0"
+        class="flex justify-center items-center relative m-0 h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25"
       >
         <svg
           class="animate-spin h-full w-5 text-persian-green-50 mr-3"
@@ -105,7 +105,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
         <span />
       </div>
       <div
-        class="flex justify-center items-center relative m-0"
+        class="flex justify-center items-center relative m-0 h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25"
       >
         <svg
           class="animate-spin h-full w-5 text-persian-green-50 mr-3"
@@ -130,7 +130,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
         <span />
       </div>
       <div
-        class="flex justify-center items-center relative m-0"
+        class="flex justify-center items-center relative m-0 h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25"
       >
         <svg
           class="animate-spin h-full w-5 text-persian-green-50 mr-3"
@@ -155,7 +155,7 @@ exports[`CartOptions for mocked product should render successfully 1`] = `
         <span />
       </div>
       <div
-        class="flex justify-center items-center relative m-0"
+        class="flex justify-center items-center relative m-0 h-24 mt-10 max-h-full rounded bg-lynch-50 bg-opacity-25"
       >
         <svg
           class="animate-spin h-full w-5 text-persian-green-50 mr-3"
