@@ -11,8 +11,9 @@ import '@fortawesome/fontawesome-free/css/fontawesome.css';
 import '@fortawesome/fontawesome-free/css/brands.css';
 import '@fortawesome/fontawesome-free/css/solid.css';
 import './index.css';
+import introspectionData from './possibleTypes.json';
 
-const client = createApolloClient();
+const client = createApolloClient(introspectionData);
 
 const container = document.getElementById('root');
 const root = createRoot(container);

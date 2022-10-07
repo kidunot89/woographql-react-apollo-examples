@@ -10,8 +10,6 @@ import { setContext } from '@apollo/client/link/context';
 import { onError } from '@apollo/client/link/error';
 import { GraphQLClient } from 'graphql-request';
 
-import introspectionData from './possibleTypes.json';
-
 const windowApolloState = typeof window !== 'undefined' ? window.__APOLLO_STATE__ : {};
 
 export const CUSTOMER_CONTENT = gql`
@@ -173,7 +171,7 @@ function createErrorLink() {
   });
 }
 
-function createApolloClient() {
+function createApolloClient(introspectionData) {
   const sessionLink = createSessionLink();
   const errorLink = createErrorLink();
   return new ApolloClient({
